@@ -326,42 +326,7 @@ border-bottom: 1px solid white;
     height: 350px;
     background-color: #bfc500;
 }
-@media (max-width:575px){
-    body{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-    }
-    header .logo{
-      align-self: center;
-    }
-    nav ul{
-      display: flex;
-      justify-content: space-evenly;
-    }
-    nav ul li a{
-        font-size: 6px;  
-    }
-    nav ul li{
-        transform: scale(1.2);
-    }
-    nav ul li a:hover{
-        border-color: white;
-        color: red;
-    }
-    .sec-2 head h1{
-        font-size: 5px;
-    }
-    .mon4 span img{
-        width: 90px;
-    }
-   .sec-6  .para3  h1{
-    font-size: 12px;
-   }
-}
+
 
 
 
