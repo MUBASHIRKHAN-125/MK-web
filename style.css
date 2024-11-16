@@ -35,6 +35,8 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #bfc500;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 nav ul li{
     transition-property: all;
@@ -347,17 +349,12 @@ border-bottom: 1px solid white;
 }
 /* screen size 1400px check */
 @media (max-width: 1660px) {
-body{
-    background-color:#1f2004;
-}
+
   }
 /* screen size 1200px check */
 @media (max-width: 1339px) {
     .sec-5 .mon23 img {
         width: 300px;
-    }
-    body {
-    background-color:#362b2b;
     }
   }
 /* screen size 992px check */
@@ -381,9 +378,6 @@ body{
 }
 /* screen size 768px check */
 @media (max-width: 991px) {
-    body{
-        background-color: #313156;
-    }
     .mon4 span img {
         width: 130px;
     }
@@ -643,7 +637,7 @@ font-size: 16px;
     body{
         margin-left: 2px;
         margin-right: 2px;
-        background-color: #242474;
+        background-color: #282862;
     }
     nav ul{
         padding-left: 12px;
@@ -652,10 +646,11 @@ font-size: 16px;
         column-gap: 22px;
     }
     nav ul li a{
-        font-size: 6px;
+        font-size: 8px;
     }
     .sec-2 .head p {
         font-size: 12px;
+        opacity: 0.7;
     }
     .hed1 h1 {
         text-decoration: underline;
@@ -673,46 +668,7 @@ font-size: 16px;
         padding-left: 18px;
     }    
 }
-@media (max-width:430px) {
-    body{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    nav ul li a{
-        font-size: 6px;
-    }
-}
-@media (max-width:360px) {
-    body{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    nav ul{
-        column-gap: 22px;
-    }
-    nav ul li a {
-        font-size: 6px;
-    }
-    .sec-2 .head h1 {
-        font-size: 20px;
-    }
-    .sec-8 .para5 h1 {
-        text-align: center;
-        font-size: 24px;
-    }
-    .pra {
-        padding-left: 10px;
-    }
-}
-    @media (max-width:317px) {
-        nav ul{
-            column-gap: 8px;
-        } 
-    }
-        @media (max-width:546px) {
-          nav ul{
-            column-gap: 14px;
-          }
-        }
+
+
    
 
