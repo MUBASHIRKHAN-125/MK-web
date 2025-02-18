@@ -26,6 +26,8 @@ nav ul{
     list-style:none;
     display: flex;
     column-gap: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 nav ul li a{
     font-size: 10px;
@@ -68,6 +70,7 @@ nav ul li:hover{
     font-weight: 100;
     font-size: 16px;
     opacity: 0.5;
+    line-height: 26px
 }
 .sec-2 .head {
     font-size: 20px;
@@ -127,13 +130,10 @@ justify-content: space-between
     background-color: white;
     color: black;
     font-weight: bold;
-    transform: scale(1.2);
+    transform: scale(1.029);
 }
 .sec-4 .but button{
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
-    transition-delay: 0.1s;
+    transition: all 0.4s 0.1s ease-in-out;
     font-weight: bold;
     border: none;
     width: 200px;
@@ -141,6 +141,7 @@ justify-content: space-between
     color: #bfc500;
     background-color: black;
     border-radius: 10px;
+    cursor: pointer;
 }
 .sec-4 h1{
    align-self: center;
@@ -182,6 +183,7 @@ justify-content: space-between
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 32px;
+    text-align: center;
 }
 .sec-6 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -347,17 +349,16 @@ border-bottom: 1px solid white;
     height: 350px;
     background-color: #bfc500;
 }
-/* screen size 1400px check */
 @media (max-width: 1660px) {
-
-  }
-/* screen size 1200px check */
+    .para5 h1{
+        text-align: center;
+    }
+    }
 @media (max-width: 1339px) {
     .sec-5 .mon23 img {
         width: 300px;
     }
   }
-/* screen size 992px check */
 @media (max-width: 1199px) {
     body {
         margin-left: 30px;
@@ -376,7 +377,6 @@ border-bottom: 1px solid white;
         background-color: #3a1a3afa;
     }
 }
-/* screen size 768px check */
 @media (max-width: 991px) {
     .mon4 span img {
         width: 130px;
@@ -452,7 +452,6 @@ border-bottom: 1px solid white;
         font-size: 16px;
     }
   }
-  /* screen size 576px check */
 @media (max-width: 767px) {
     body{
         margin-left: 36px;
@@ -631,7 +630,13 @@ font-size: 16px;
 @media (max-width:576px) {
     nav ul li a{
         font-size: 8px;
-    }  
+    } 
+    nav ul{
+        column-gap: 14px;
+    } 
+    header{
+        padding-bottom: 14px;
+    }
 }
 @media (max-width:390px){
     body{
@@ -642,8 +647,7 @@ font-size: 16px;
     nav ul{
         padding-left: 12px;
         padding-right: 12px;
-        margin-bottom: 5px;
-        column-gap: 22px;
+        column-gap: 16px;
     }
     nav ul li a{
         font-size: 8px;
@@ -667,6 +671,11 @@ font-size: 16px;
     .pra{
         padding-left: 18px;
     }    
+}
+@media (max-width:330px){
+   nav ul{
+    column-gap: 8px;
+   }
 }
 
 
